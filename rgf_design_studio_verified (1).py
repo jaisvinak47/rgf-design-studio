@@ -33,6 +33,8 @@ div[data-testid="stVerticalBlock"] > div:has(> div > .section-card) { background
 .small-muted { color:#64748b; font-size:.88rem; }
 hr { border-color:var(--line); }
 @media (max-width: 800px) { .hero { padding:22px; } .hero h1 { font-size:1.7rem; } }
+footer {visibility: hidden;}
+[data-testid="stAppDeployButton"] {display: none;}
 </style>''', unsafe_allow_html=True)
 st.markdown('''<div class="hero"><div class="eyebrow">Water Treatment • Design Workspace</div><h1>💧 Rapid Gravity Filter Design Studio</h1><p>Guided calculations for filter sizing, media resistance, piping losses and hydraulic head summary.</p></div>''', unsafe_allow_html=True)
 st.caption("Chapter 10 • Design Example 10.13 • Editable inputs and calculation tables")
